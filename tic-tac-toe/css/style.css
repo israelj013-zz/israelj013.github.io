@@ -37,14 +37,14 @@
 .x p {
   display: table-cell;
   vertical-align: middle;
-  font-size: 56px;
+  font-size: 84px;
   color: red;
 }
 
 .o p {
   display: table-cell;
   vertical-align: middle;
-  font-size: 56px;
+  font-size: 84px;
   color: blue;
 }
 

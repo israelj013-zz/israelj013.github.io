@@ -35,6 +35,7 @@ class BoardSquares {
     this.canvas = canvas.getContext("2d");
     this.canvas.lineWidth = 6;
     this.canvas.strokeStyle = "#FF0000";
+    this.element.style.fontFamily = "Indie Flower"
   }
 
   reset() {
@@ -123,6 +124,7 @@ class BoardSquares {
       if (running) {
         if (player == "x" && this.choice == null) {
           this.element.classList.add("flipped-x");
+          console.log(this.element.style.fontFamily);
           this.choice = "x"
           this.checkForWinner();
           this.checkForDraw();
