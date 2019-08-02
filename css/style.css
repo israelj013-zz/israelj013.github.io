@@ -25,12 +25,14 @@ body, html {
     text-align: center;
     color: #000;
   }
+
   
   .info span.border {
-    background-color: #656565;
+    background-color: #2d2d2d;
     color: #fff;
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
-    border: 0;
+    font-size: 18px;
+    border: none !important;
   }
