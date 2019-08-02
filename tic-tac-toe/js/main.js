@@ -124,7 +124,6 @@ class BoardSquares {
       if (running) {
         if (player == "x" && this.choice == null) {
           this.element.classList.add("flipped-x");
-          console.log(this.element.style.fontFamily);
           this.choice = "x"
           this.checkForWinner();
           this.checkForDraw();

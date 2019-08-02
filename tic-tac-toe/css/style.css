@@ -21,7 +21,6 @@
   width: 100%;
   position: absolute;
   top: 0;
-  //transition: 400ms;
 }
 
 .x, .o, .facedown {
@@ -71,3 +70,4 @@
 #container canvas, #myCanvas {
   position: absolute;
 }
+
