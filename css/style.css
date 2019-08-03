@@ -36,3 +36,13 @@ body, html {
     font-size: 18px;
     border: none !important;
   }
+
+  @media (max-width: 768px) {
+      .info span.border {
+          font-size: 14px;
+          padding: 6px;
+      }
+      .info br.delete {
+          display: none;
+      }
+  }
