@@ -4,4 +4,6 @@
 
 .portrait {
     height: 400px;
+    margin: auto;
+    display:block;
 }
