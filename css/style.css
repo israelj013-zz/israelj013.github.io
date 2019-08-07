@@ -1,16 +1,8 @@
-
-
 body, html {
     height: 100%;
   }
-  
 
-
-.bg {
-  overflow: hidden;
-}
-
-.bg:before {
+.bg:after {
   content: ' ';
   display: block;
   height: 100%;
@@ -22,10 +14,8 @@ body, html {
   -webkit-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0px -300px;
+  background-position: 0px -850px;
 }
-
-
 
 .info {
   position: absolute;
@@ -34,8 +24,8 @@ body, html {
   width: 100%;
   text-align: center;
   color: #000;
+  z-index: 1;
 }
-
 
 /*.info span.border {
   color: white;
