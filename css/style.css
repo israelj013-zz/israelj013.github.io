@@ -10,6 +10,7 @@ body, html {
   content: ' ';
   display: block;
   height: 100%;
+  filter: blur(2px);
   background-image: url("https://raw.githubusercontent.com/israelj013/israelj013.github.io/master/images/DSC02522.jpg");
   -ms-background-size: cover;
   -o-background-size: cover;
