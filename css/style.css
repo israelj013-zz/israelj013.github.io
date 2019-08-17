@@ -9,7 +9,7 @@ body, html {
 .bg:after {
   content: ' ';
   display: block;
-  height: 20px;
+  height: 100%;
   background-image: url("https://raw.githubusercontent.com/israelj013/israelj013.github.io/master/images/DSC02522.jpg");
   -ms-background-size: cover;
   -o-background-size: cover;
