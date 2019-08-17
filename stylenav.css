@@ -1,3 +1,13 @@
 .logo {
     height: 50px;
   }
+
+.nav-text {
+  color: black !important;
+}
+
+.prj {
+  background-color: transparent !important;
+  padding: 4px;
+  border-width: 1px
+}

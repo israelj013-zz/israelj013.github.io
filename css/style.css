@@ -83,15 +83,7 @@ body, html {
     }
 }
 
-.nav-text {
-  color: black !important;
-}
 
-.prj {
-  background-color: transparent !important;
-  padding: 4px;
-  border-width: 1px
-}
 
 .portrait {
   height: 400px;
