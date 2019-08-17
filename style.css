@@ -1,0 +1,61 @@
+body, html {
+  height: 100%;
+}
+
+.bg {
+  overflow: hidden;
+  background-image:  url('images\\_T5A6616.png'), url('images\\Untitled design (2).png');
+  background-size: 40%, 3px 3px;
+  background-repeat: no-repeat, repeat;
+  background-position:92.5% 0%, left top;
+  }
+
+.info {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  z-index: 1;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.info span.border {
+  color: #000;
+  font-size: 25px;
+  border: none !important;
+  border-radius: 0px;
+  width: 100
+}
+
+.info span.job {
+  color: #000;
+  font-size: 56px;
+  border: none !important;
+  border-radius: 0px;
+  
+}
+
+.info span.name {
+  color: #000;
+  font-size: 127px;
+  border: none !important;
+  border-radius: 0px;
+}
+
+
+.portrait {
+  width: 100%;
+  padding: 40px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.container {
+  z-index: 1
+}
