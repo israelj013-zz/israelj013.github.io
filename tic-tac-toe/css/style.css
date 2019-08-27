@@ -71,3 +71,12 @@
   position: absolute;
 }
 
+@media(max-width: 400px){
+  .board-container{
+    height: 300px;
+    width: 300px;
+  }
+  #reset-button{
+    width: 300px;
+  }
+}

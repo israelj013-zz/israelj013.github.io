@@ -59,18 +59,31 @@ body, html {
   text-decoration: unset;
 }
 
-@media (max-width: 768px) {
-  .bg {
-    background-position: center;
+@media (max-width:1040px){
+  .info span.name{
+    font-size: 95px;
   }
-    .info span.border {
-        font-size: 14px;
-        padding: 10px;
-    }
-    .info br.delete {
-        /*display: none;*/
-        height: 5px;
-    }
+
+  .info span.job {
+    font-size: 42;
+  }
+}
+
+@media (max-width: 640px) {
+  .info{
+    top: 45%;
+  }
+  .info span.name{
+    font-size: 40px;
+  }
+
+  .info span.job{
+    font-size: 20px;
+  }
+
+  .info span.border {
+    font-size: 10px;
+  }
 }
 
 .portrait {
