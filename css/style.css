@@ -6,8 +6,8 @@ body, html {
   overflow: hidden;
 }
 
-.bg:after {
-  content: ' ';
+.bg::after {
+  content: '';
   display: block;
   height: 100%;
   filter: blur(2px);
@@ -35,17 +35,6 @@ body, html {
   padding: 0px;
 }
 
-/*.info span.border {
-  color: white;
-  -webkit-text-stroke-width: .1px;
-  -webkit-text-stroke-color: black;
-  padding: 18px;
-  letter-spacing: 5px;
-  font-size: 40px;
-  font-weight: bold;
-  border: none !important;
-}*/
-
 .info span.border {
   color: #000;
   font-size: 25px;
@@ -67,6 +56,7 @@ body, html {
   font-size: 127px;
   border: none !important;
   border-radius: 0px;
+  text-decoration: unset;
 }
 
 @media (max-width: 768px) {
@@ -82,8 +72,6 @@ body, html {
         height: 5px;
     }
 }
-
-
 
 .portrait {
   height: 400px;

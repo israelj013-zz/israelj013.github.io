@@ -1,9 +1,52 @@
 .header p {
-    font-size: 48px;
+    font-size: 96px;
 }
 
 .portrait {
     height: 400px;
     margin: auto;
     display:block;
+    border: 20px ;
+    border-color: black;
+}
+
+.row {
+    padding: 20px;
+}
+.info .row::after {
+    content: '';
+    display: block;
+    margin: 40px auto 0px auto;
+    height: 5px;
+    width: 60%;
+    background-color: rgb(87, 87, 87);
+}
+
+.text{
+    margin: 20px;
+}
+
+.shpe {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.engineering {
+    padding: 20px;
+    width: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .header p{
+        font-size: 52px;
+    }
+
+    .engineering{
+        width: 100%;
+    }
 }
