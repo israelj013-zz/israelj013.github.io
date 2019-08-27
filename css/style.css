@@ -60,6 +60,9 @@ body, html {
 }
 
 @media (max-width:1040px){
+  .info{
+    top: 45%;
+  }
   .info span.name{
     font-size: 95px;
   }
@@ -71,7 +74,7 @@ body, html {
 
 @media (max-width: 640px) {
   .info{
-    top: 45%;
+    top: 55%;
   }
   .info span.name{
     font-size: 40px;
