@@ -14,8 +14,6 @@
 <body>
     <div id="nav-placeholder"></div>
     <script>
-        console.log(jQuery.get("https://israelj013.github.io/israelj013.github.io/nav.html"));
-        
         jQuery.get("https://israelj013.github.io/israelj013.github.io/nav.html", function(data){
             $("#nav-placeholder").replaceWith(data);
         });
