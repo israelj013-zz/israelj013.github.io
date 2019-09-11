@@ -10,13 +10,7 @@ function generateHTMLBoardSquares(){
   for (var i = 0; i<9;i++) {
     htmlChange += `<div class="col-4 board-square ">
                     <div class="face-container">
-                      <div class="facedown">
-                      </div>
-                      <div class="x text-center">
-                        <p>X</p>
-                      </div>
-                      <div class="o text-center">
-                        <p>O</p>
+                      <div class="facedown text-center">
                       </div>
                     </div>
                   </div>`
@@ -27,22 +21,21 @@ function generateHTMLBoardSquares(){
 }
 
 class BoardSquares {
-  constructor(element, position,canvas) {
+  constructor(element,canvas) {
     this.element = element;
     this.element.addEventListener("click", this, false);
     this.match = false;
     this.choice = null;
     this.canvas = canvas.getContext("2d");
     this.canvas.lineWidth = 6;
-    this.canvas.strokeStyle = "#FF0000";
-    this.element.style.fontFamily = "Indie Flower"
+    this.canvas.strokeStyle = "#4C4CEE";
+    this.element.style.fontFamily = "Manjari"
   }
 
   reset() {
     this.choice = null;
     this.match = false
-    this.element.classList.remove("flipped-x");
-    this.element.classList.remove("flipped-o");
+    this.element.querySelector(".face-container").querySelector(".facedown").innerHTML = ''
     running = true;
     player = "x";
     document.getElementById("winner").innerHTML = "<br>";
@@ -123,16 +116,19 @@ class BoardSquares {
       case "click":
       if (running) {
         if (player == "x" && this.choice == null) {
-          this.element.classList.add("flipped-x");
-          this.choice = "x"
+          console.log(this.element.querySelector(".face-container").querySelector(".facedown"))
+          this.element.querySelector(".face-container").querySelector(".facedown").innerHTML = '<p>X</p>'
+          this.element.querySelector(".face-container").querySelector(".facedown").style.color = "#E93636"
+          this.choice = "x";
           this.checkForWinner();
           this.checkForDraw();
           player = "o";
           turn ++;
         }
         else if (player == "o" && this.choice == null) {
-          this.element.classList.add("flipped-o")
-          this.choice = "o"
+          this.element.querySelector(".face-container").querySelector(".facedown").innerHTML = '<p>O</p>'
+          this.element.querySelector(".face-container").querySelector(".facedown").style.color = "#4C4CEE"
+          this.choice = "o";
           this.checkForWinner();
           this.checkForDraw();
           player = "x"
@@ -164,11 +160,15 @@ function setupGame(){
 
   for (var i = 0; i<squareElements.length; i++) {
     const element = squareElements[i];
-    const square = new BoardSquares(element,i,c);
+    const square = new BoardSquares(element,c);
     boardSquares.push(square);
   }
 
-
+function GetElementInsideContainer(containerID, childID) {
+  var elm = document.getElementById(childID);
+  var parent = elm ? elm.parentNode : {};
+  return (parent.id && parent.id === containerID) ? elm : {};
+}
 
 }
 

@@ -8,7 +8,7 @@
 }
 
 .board-square {
-  border: 2px solid #F7F7F7;
+  border: 2px solid rgb(43, 43, 43);
   height: 33%;
   width: 33%;
   padding: 0;
@@ -17,42 +17,20 @@
 
 .face-container {
   background-color: lightgray;
-  height: 300%;
+  height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
 }
 
-.x, .o, .facedown {
+.facedown {
   height: 33%;
   width: 100%;
 }
 
-
-.x, .o  {
-  display: table
-}
-
-.x p {
-  display: table-cell;
-  vertical-align: middle;
+.facedown p{
+  display: inline-block;
   font-size: 84px;
-  color: red;
-}
-
-.o p {
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 84px;
-  color: blue;
-}
-
-.flipped-x .face-container {
-  top: -100%;
-}
-
-.flipped-o .face-container {
-  top: -200%;
 }
 
 #header {
@@ -78,5 +56,11 @@
   }
   #reset-button{
     width: 300px;
+  }
+  .facedown p {
+   font-size:  72px;
+  }
+  .face-container{
+    height: 320%;
   }
 }
