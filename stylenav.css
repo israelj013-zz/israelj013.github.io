@@ -18,10 +18,15 @@
   filter: opacity(.8);
 }
 
-.btn{
+button{
   color: #efefef;
 }
 
-.navbar-toggler button{
-  color: #efefef;
+.navbar-default .navbar-toggler-icon{
+  background-image: url("C:\\Users\\israeljimenez\\apps\\israelj013.github.io\\images\\134216-32.png");
+}
+
+.dropdown-menu{
+  background-color: rgb(2, 2, 2);
+  border-color: #efefef;
 }
