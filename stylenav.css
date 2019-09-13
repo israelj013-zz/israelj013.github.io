@@ -14,14 +14,14 @@
 }
 
 .navbar-default{
-  background-color: rgb(33, 33, 36);
-  filter: opacity(.2);
+  background-color: rgb(2, 2, 2);
+  filter: opacity(.8);
 }
 
 .btn{
   color: #efefef;
 }
 
-.navbar-toggler{
+.navbar-toggler button{
   color: #efefef;
 }
