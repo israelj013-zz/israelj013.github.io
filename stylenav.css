@@ -12,3 +12,7 @@
   padding: 4px;
   border-width: 1px
 }
+
+.navbar-default{
+  background-color: rgb(40, 40, 46)
+}
