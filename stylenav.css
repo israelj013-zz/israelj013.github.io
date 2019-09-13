@@ -15,6 +15,7 @@
 
 .navbar-default{
   background-color: rgb(33, 33, 36);
+  filter: opacity(.2);
 }
 
 .btn{
