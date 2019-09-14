@@ -18,7 +18,8 @@ body, html {
   text-align: center;
   color: #000;
   z-index: 1;
-  font-family: 'Pathway Gothic One', sans-serif;
+  font-family: 'Helvetica', sans-serif;
+  src: url("C:\\Users\\israeljimenez\\apps\\israelj013.github.io\\fonts\\Helvetica_Helvetica\\Helvetica\\Helvetica-Black.otf");
   font-style: normal;
   font-weight: bold;
   padding: 0px;
