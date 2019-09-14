@@ -13,6 +13,8 @@
   border-width: 1px
 }
 
+
+
 .navbar-default{
   background-color: rgb(2, 2, 2);
   filter: opacity(.8);
@@ -30,3 +32,4 @@ button{
   background-color: rgb(2, 2, 2);
   border-color: #efefef;
 }
+
