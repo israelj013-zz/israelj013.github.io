@@ -56,45 +56,63 @@ body, html {
     top: 45%;
   }
   .info span.name{
-    font-size: 60px;
+    font-size: 70px;
   }
 
   .info span.job {
-    font-size: 25.3px;
+    font-size: 29.5px;
   }
 
   .info span.border{
-    font-size:11.5px;
+    font-size:13.5px;
   }
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 860px) {
   .info span.name{
-    font-size: 45px;
+    font-size: 55px;
   }
 
   .info span.job{
-    font-size: 19px;
+    font-size: 23px;
   }
 
   .info span.border {
-    font-size: 8.7px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 500
   }
   .bg{
     background-position: 80% 42%;
   }
 }
 
-@media (max-width: 464px){
+@media (max-width: 564px){
+  .info{
+    width: 300px;
+    top: 55%;
+  }
   .info span.name{
-    font-size: 32px;
+    font-size: 40px;
   }
 
   .info span.job{
-    font-size: 13.5px;
+    font-size: 16.7px;
   }
   .info span.border{
-    font-size: 6.2px;
+    font-size: 13px;
+    letter-spacing: .7px;
+  }
+}
+@media (max-width:410px){
+  .info span.name{
+    font-size: 34px;
+  }
+  .info span.job{
+    font-size: 14.2px;
+  }
+  .info span.border{
+    font-size: 12.5px;
   }
 }

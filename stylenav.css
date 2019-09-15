@@ -1,10 +1,10 @@
 .logo {
-    height: 50px;
+    height: 4px;
   }
 
 .nav-text {
-  color:#efefef !important;
   font-size: 20px;
+  font-family: 'Helvetica Neue', sans-serif
 }
 
 .prj {
@@ -13,7 +13,10 @@
   border-width: 1px
 }
 
-
+.navbar-brand{
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
 .navbar-default{
   background-color: rgb(2, 2, 2);
@@ -25,7 +28,7 @@ button{
 }
 
 .navbar-default .navbar-toggler-icon{
-  background-image: url("C:\\Users\\israeljimenez\\apps\\israelj013.github.io\\images\\134216-32.png");
+  background-image: url("https://github.com/israelj013/israelj013.github.io/blob/master/images/134216-32.png?raw=true");
 }
 
 .dropdown-menu{
