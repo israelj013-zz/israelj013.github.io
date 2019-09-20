@@ -1,8 +1,9 @@
 .logo {
-    height: 4px;
+    height: 40px;
   }
 
 .nav-text {
+  color: #efefef;
   font-size: 20px;
   font-family: 'Helvetica Neue', sans-serif
 }
@@ -20,6 +21,10 @@
 
 .navbar-default{
   background-color: rgb(2, 2, 2);
+  
+}
+
+.navbar-default:not(.logo){
   filter: opacity(.8);
 }
 
@@ -36,3 +41,7 @@ button{
   border-color: #efefef;
 }
 
+.dropdown-item:hover{
+  background-color: #263547;
+  color: #efefef;
+}
