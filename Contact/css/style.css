@@ -1,0 +1,32 @@
+body, html{
+    height: 100%;
+}
+
+.bg{
+    overflow: hidden;
+    background-image: url("C:\\Users\\israeljimenez\\apps\\israelj013.github.io\\images\\DSC02544_3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 14%;
+}
+
+.header{
+    font-size: 48px;
+    position: absolute;
+    left: 65%;
+    top: 40%
+}
+
+.linkedin{
+    height: 80px;
+    position: absolute;
+    left: 69%;
+    top: 50%;
+}
+
+.github{
+    height: 60px;
+    position: absolute;
+    top: 51%;
+    left: 79%;
+}
