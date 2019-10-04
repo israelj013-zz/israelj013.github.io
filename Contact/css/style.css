@@ -1,5 +1,6 @@
 body, html{
     height: 100%;
+    font-family: 'Helvetica Neue', sans-serif
 }
 
 .bg{
@@ -14,19 +15,61 @@ body, html{
     font-size: 48px;
     position: absolute;
     left: 65%;
-    top: 40%
+    top: 40%;
 }
 
 .linkedin{
     height: 80px;
     position: absolute;
-    left: 69%;
+    left: 70%;
     top: 50%;
 }
 
 .github{
     height: 60px;
     position: absolute;
-    top: 51%;
-    left: 79%;
+    top: 50.8%;
+    left: 80%;
+}
+
+@media (max-width:1150px){
+    .header{
+        left: 60%;
+    }
+    .linkedin{
+        left: 67%;
+    }
+    .github{
+        left: 79%;
+    }
+}
+
+@media (max-width:1024px){
+    .header{
+        font-size: 44px;
+    }
+    .linkedin{
+        height: 60px;
+        left: 68%;
+    }
+    .github{
+        height: 45px;
+        left: 78%;
+    }
+}
+
+@media (max-width: 900px){
+    .header{
+        font-size: 40px;
+    }
+    .linkedin{
+        top: 48%;
+    }
+    .github{
+        top: 48.8%;
+    }
+}
+
+@media (max-width: 800px){
+    
 }
